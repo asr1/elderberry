@@ -23,6 +23,8 @@ CREATURE_HEALTH_LOCATION = (40, 280)
 CREATURE_TEXT_LOCATION = (70, 530)
 CREATURE_RIGHT_BAR_LOCATION = (820,55) #The far right side of the name bar
 CREATURE_TOKEN_WIDTH = 64 #Size of a health token
+CREATURE_ART_LOCATION = (95, 150)
+
 
 TEXT_RESOLUTION = 42 #Vertical distance between lines
 CREATURE_TEXT_WIDTH = 42
@@ -61,13 +63,12 @@ for i in range(2,sheet.max_row + 1):
 	#Creature
 	if sheet.cell(row=i,column=COLUMN_TYPE).value == "Creature":
 	
-		#Draw NAME
+		#Draw name
 		draw.text(CREATURE_NAME_LOCATION, str(sheet.cell(row=i,column=COLUMN_NAME).value), TEXT_COLOR, font=creature_name_font)
 		
+		#Draw health tokens
 		health = str(sheet.cell(row=i, column=COLUMN_HEALTH).value).split(',')
-		
 		offset = CREATURE_TOKEN_WIDTH
-		
 		for x in range(0, len(health)):
 			offset = offset - CREATURE_TOKEN_WIDTH
 			health[x] = health[x].strip()
@@ -81,7 +82,12 @@ for i in range(2,sheet.max_row + 1):
 
 		img.close()
 
-
+		
+		#Draw art
+		img = Image.open('art/' + str(sheet.cell(row=i, column=COLUMN_NAME).value) + '.png')
+		background.paste(img, CREATURE_ART_LOCATION)
+		
+		
 		#Text wrap
 		if sheet.cell(row=i,column=COLUMN_TEXT).value is not None:
 			text = textwrap.wrap(str(sheet.cell(row=i,column=COLUMN_TEXT).value), width=CREATURE_TEXT_WIDTH)
