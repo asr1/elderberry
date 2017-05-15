@@ -1,0 +1,154 @@
+nontraditional mechancis
+
+like how demon hunters has death dice in the middle that
+anyone can pull and it makes things bad
+
+you can eliminate one thing. Like "I made the blue cars go away"
+
+something similar. A death die that rotates up, making enemies
+stronger or something? It's the multipier to enemies damage
+just like a d6 in the middle of the table
+
+
+When one player dies, d6 resets to 1. When they get a kill, it increases by 1.
+Player can spend action to roll it.
+Does it wrap around, 6->1? 
+	Not under these cirmstance, no
+
+and every time you add a d6 to your roll it goes up?
+With a talent make it a d8
+but we need incentive.
+what happens if you fail a roll?
+it has to be bad
+but not as bad as the death dice rolling up
+
+
+make it like a shadowrun, mission-based game?
+
+Rebirth?
+
+
+what about enemies?
+The counter makes this easier
+
+high damage, low HP.
+High lethality
+
+
+
+
+
+maybe there's a cult nearby. And if they kill a cultist, they piss off the god?
+squidgod
+
+
+stormwarden
+
+
+
+
+So they start off in a village, a hamlet, really, and the shipment hasn't come. For a month. So these 4 go investigate. And the next town over has been razed. There's a barn left standing, signs of fire evident. Inside, they're attacked by X. 
+To their rescue comes a shout "There's a survivor!"
+4 people come and offer to teach them rudimentary skills (each of the classes) so they can defend their town.
+
+They offer only the barest of explanations (all done separately).
+
+They come back, saying that one of them betrayed the rest. Tried to kill them, was calling the X down upon the villages.
+They demand to know from those who taught under him: What did he teach you?
+
+
+
+Great. Now combat. 
+All the skills start as 5 on a d4 but class skills move to a d10 and you can use elderberry to increase die or decrease difficulty of any one skill. Basically making any skill outside of your class impossible unless someone has a spell to do it. 
+
+How much did you beat your number by? 
+Write the missions like chapter 1 training chapter 2 betrayal. They learn skill checks etc. Oh man. Combine the combat with the rpg mechanics 
+Write the missions like chapter 1 training chapter 2 betrayal. They learn skill checks etc. Oh man. Combine the combat with the rpg mechanics 
+Discard shield to clear all damage, discard matching type to prevent one damage . 
+If attack with matching then does 3 damage, 
+If attacking all does 2 to everyone else can pull to do 1 to everyone. 
+
+Physical I have seen men call power, but when I reach for it, I find nothing. Power is my sword and shield. Power comes from within.
+
+Oowwr comes from nature. 
+
+Power comes from the power of those before 
+Alex Rinehart
+Discard shield to clear all damage, discard matching type to prevent one damage . 
+If attack with matching then does 3 damage, 
+If attacking all does 2 to everyone else can pull to do 1 to everyone. 
+
+Physical I have seen men call power, but when I reach for it, I find nothing. Power is my sword and shield. Power comes from within.
+
+Oowwr comes from nature. 
+
+Power comes from the power of those before 
+Today at 1:33 PM
+Bowman can attack creatures in the wild 
+AAAA
+Bowman can attack creatures in the wild 
+Alex Rinehart
+ Grappler can pull creatures from in front of others 
+AAAA
+ Grappler can pull creatures from in front of others 
+Alex Rinehart
+Quelled can make central monsters not attack for a round 
+AAAA
+Quelled can make central monsters not attack for a round 
+Alex Rinehart
+Someone can draw a ton? 
+AAAA
+Someone can draw a ton? 
+Elderberry card is draw two or banish to also banish your discard, or can sell for new cards or classes. Most classes have corruption deck cards as well. Heart card heal 1 or banish to heal full. Costs 2. After a successful battle, everyone heals, gets 1 eb, most damaged at end of fight gets extra eb. If lose, everyone banishes a card. 
+Alex Rinehart
+Elderberry card is draw two or banish to also banish your discard, or can sell for new cards or classes. Most classes have corruption deck cards as well. Heart card heal 1 or banish to heal full. Costs 2. After a successful battle, everyone heals, gets 1 eb, most damaged at end of fight gets extra eb. If lose, everyone banishes a card
++1 hand size as a card to buy instead of a class
+Classes cost 3, hearts, hand size cost 2
+
+
+
+
+All start with 6. 5 fist, 1 shield.
+Hand size is 3.
+
+Each class has 7 cards: 4 new ones, 3 corruption.
+2 corruption is their monsters, they can take them easily.
+The other corruption has a hint of theirs and a hint of something else. Something in the next pack.
+
+corruption Deck: the gm shuffles and deals a deck facedown of size 2n+1 where n is the number of players (exlcuding the GM).
+If the GM wins, the GM must banish one card from the deck.
+
+all tokens are 3 health, if the token type matches, it does 3, else it does 1 (of any type)
+
+starting deck is 5 Rabbit (fire)
+				 5 Squirrel (Lightning)
+				 1 stag (sword)*
+				 1 boar (poison)*
+Both the stag and boar have extra health. Like 2 tokens each instead of 1 (6 health)
+				
+	Bear, chipmunk, jaguar, python, turtles, pihrrana			
+				
+first mission, only basics.
+They are on the woods to investigate the next town over, like we talked about.
+
+On the way their they have a fight, then the 3 people offer them one of the initial classes for free. They train them
+
+
+...also give a loyalty card? This is only good if we are doing overarching meta plot. And if we are, waht is it?
+	Gain an extra elderberrry if the party loses?
+	Then everyone would need a secret goal so as to not arouse suspicion. Hmm. Don't implement this yet. Basics first.
+	traitor mechanic is no good here; there's no way to actively betray.
+	
+if one person dies, they get half the reward.
+On a failure, the team gets 2 seeds. On a success, they get 4.
+4 seeds = 1 elderberry, and thus the card to go with it.
+How represent seeds?
+Could we just give them an elderberry card that says "draw one" for the seeds, and then the berry itself is draw 2 or banish, and they can exchange the seeds for berries and the berries for other cards and / or packs? Let's do that.
+But maybe we don't get XP for losing.
+Die, you get one, else you get 2. 3 gives you a berry? That seems better, I think.
+
+
+
+perhaps we can have a battle conditions deck. Creatures in the wild can't attack, creatures in the wild deal 2x damage, creatures can be lured even when not in the wild, all attacks count as X, type thing. So we'd have a deck of like 5 "normal conditions" cards, and we randomly deal one out at the beginning of the battle? Keep it in mind for now.
+
+
