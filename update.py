@@ -55,7 +55,6 @@ for i in range(2,sheet.max_row + 1):
 	#Get the right template
 	background = Image.open('templates/' + folder + ".png")
 	draw = ImageDraw.Draw(background)
-	
 
 	#Draw type-specific things
 	
@@ -66,21 +65,22 @@ for i in range(2,sheet.max_row + 1):
 		draw.text(CREATURE_NAME_LOCATION, str(sheet.cell(row=i,column=COLUMN_NAME).value), TEXT_COLOR, font=creature_name_font)
 		
 		health = str(sheet.cell(row=i, column=COLUMN_HEALTH).value).split(',')
-		img = Image.open('icons/' + health[0] + '.png')
-		location = (CREATURE_RIGHT_BAR_LOCATION[0], CREATURE_RIGHT_BAR_LOCATION[1], CREATURE_RIGHT_BAR_LOCATION[0] + 64, CREATURE_RIGHT_BAR_LOCATION[1] + 64)
-		background.paste(img, location)
-		#background.paste(img)
 		
-		print("Modes")
-		print(img.mode)
-		print(background.mode)
+		offset = CREATURE_TOKEN_WIDTH
 		
-		img.close()
-		
-		draw.text(CREATURE_RIGHT_BAR_LOCATION, str(sheet.cell(row=i,column=COLUMN_NAME).value), TEXT_COLOR, font=creature_name_font)
+		for x in range(0, len(health)):
+			offset = offset - CREATURE_TOKEN_WIDTH
+			health[x] = health[x].strip()
+			img = Image.open('icons/' + health[x] + '.png')
+			
+			#Draw each icon 3 times
+			for y in range(0,3):
+				location = (CREATURE_RIGHT_BAR_LOCATION[0] - CREATURE_TOKEN_WIDTH * x - offset, CREATURE_RIGHT_BAR_LOCATION[1], CREATURE_RIGHT_BAR_LOCATION[0] - CREATURE_TOKEN_WIDTH * (x-1) - offset, CREATURE_RIGHT_BAR_LOCATION[1] + CREATURE_TOKEN_WIDTH)
+				offset = offset + CREATURE_TOKEN_WIDTH
+				background.paste(img, location)
 
-		
-		
+		img.close()
+
 
 		#Text wrap
 		if sheet.cell(row=i,column=COLUMN_TEXT).value is not None:
