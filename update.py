@@ -21,7 +21,7 @@ COLUMN_TEXT = 4
 CREATURE_NAME_LOCATION = (95, 58)
 CREATURE_HEALTH_LOCATION = (40, 280)
 CREATURE_TEXT_LOCATION = (70, 530)
-CREATURE_RIGHT_BAR_LOCATION = (820,58) #The far right side of the name bar
+CREATURE_RIGHT_BAR_LOCATION = (820,55) #The far right side of the name bar
 CREATURE_TOKEN_WIDTH = 64 #Size of a health token
 
 TEXT_RESOLUTION = 42 #Vertical distance between lines
@@ -77,7 +77,7 @@ for i in range(2,sheet.max_row + 1):
 			for y in range(0,3):
 				location = (CREATURE_RIGHT_BAR_LOCATION[0] - CREATURE_TOKEN_WIDTH * x - offset, CREATURE_RIGHT_BAR_LOCATION[1], CREATURE_RIGHT_BAR_LOCATION[0] - CREATURE_TOKEN_WIDTH * (x-1) - offset, CREATURE_RIGHT_BAR_LOCATION[1] + CREATURE_TOKEN_WIDTH)
 				offset = offset + CREATURE_TOKEN_WIDTH
-				background.paste(img, location)
+				background.paste(img, location, mask=img)
 
 		img.close()
 
